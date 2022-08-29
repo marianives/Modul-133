@@ -12,10 +12,9 @@ Ich habe gelernt Bilder auf einer Web Applikation zu darstellen mit JSF. Ebenso 
 
 ``` Java
 <h:form>
-            <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("d")}"/>     
-            <h:graphicImage library="images" name="d.png" />
-            <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("h")}"/>     
-            <h:graphicImage library="images" name="h.png" />
+            <h:commandLink action="eye.xhtml">
+                <h:graphicImage library="images" name="d.png" />
+            </h:commandLink>
 </h:form>
 ```
 ![image](https://user-images.githubusercontent.com/100756109/187171663-64861220-2b93-49bb-a3af-791d7ba97e23.png)
