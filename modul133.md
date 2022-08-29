@@ -1,31 +1,37 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Maria-Nives Gallo
 
 ## Einleitung
-
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Bilder auf einer Web Applikation zeigen mit JSF
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Ich habe gelernt Bilder auf einer Web Applikation zu darstellen mit JSF. Ebenso kann man die Bilder als Link benutzen um z.B. Seite zu wechseln.
 
 ## Beschreibung
 
 ✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+``` Java
+<h:form>
+            <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("d")}"/>     
+            <h:graphicImage library="images" name="d.png" />
+            <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("h")}"/>     
+            <h:graphicImage library="images" name="h.png" />
+        </h:form>
+```
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Wie man auf dem Code sehen kann, wird mit graphicImage aus der Library images das bild d.png ausgewählt und auf der Seite dargestellt. 
+Mit commandLink wird das Bild zu einem Link gemacht, dass auf die Seite "eye.xhtml" weitergeleitet wird.
+Ebenso kann man auf dem Bild sehen wie dies auf der Website dann aussieht.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+👍 Ich konnte anhand den Aufträgen von den vorherigen Aufgaben diesen Auftrag gut lösen und immer wieder ein wenig "spicken".
 
-👎 und etwas, was nicht gut lief.
+👎 Ich war sehr langsam beim Fehler finden und diese zu korrigieren
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: ✍️ Mehr mit debugger Arbeiten, Fehlermeldungen besser analysieren und somit die Fehler schneller finden und beheben.
