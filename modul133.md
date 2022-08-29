@@ -10,17 +10,14 @@ Ich habe gelernt Bilder auf einer Web Applikation zu darstellen mit JSF. Ebenso 
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
-
 ``` Java
 <h:form>
             <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("d")}"/>     
             <h:graphicImage library="images" name="d.png" />
             <h:commandLink action="eye.xhtml" value="#{manageBeanAvatar.setSkin("h")}"/>     
             <h:graphicImage library="images" name="h.png" />
-        </h:form>
+</h:form>
 ```
-
 
 ## Verifikation
 
