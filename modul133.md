@@ -19,6 +19,9 @@ Ich habe gelernt Bilder auf einer Web Applikation zu darstellen mit JSF. Ebenso 
 ```
 ![image](https://user-images.githubusercontent.com/100756109/187171663-64861220-2b93-49bb-a3af-791d7ba97e23.png)
 
+![2022-08-29_11-56-09_Trim_AdobeExpress](https://user-images.githubusercontent.com/100756109/187176900-bb93fa4d-0c23-43a5-885c-4a686b992b98.gif)
+
+
 ## Verifikation
 
 Wie man auf dem Code sehen kann, wird mit graphicImage aus der Library images das bild d.png ausgewählt und auf der Seite dargestellt. 
