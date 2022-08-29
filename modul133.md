@@ -18,6 +18,7 @@ Ich habe gelernt Bilder auf einer Web Applikation zu darstellen mit JSF. Ebenso 
             <h:graphicImage library="images" name="h.png" />
 </h:form>
 ```
+![image](https://user-images.githubusercontent.com/100756109/187171663-64861220-2b93-49bb-a3af-791d7ba97e23.png)
 
 ## Verifikation
 
